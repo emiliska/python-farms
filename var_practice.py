@@ -27,5 +27,5 @@ print('%[]' % result) format specification %[flag][width][letter]
 print('result = %f' % result)
 print('result = %.2f' % result)
 print('result = %5.2f' % result)
-
 print('%d\n%.2f' % (12 , 2.765))
+print('%05d\n%.2f' % (12 , 2.765))
