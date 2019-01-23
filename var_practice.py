@@ -25,3 +25,4 @@ print('%[]' % result) format specification %[flag][width][letter]
     s | string
 '''
 print('result = %f' % result)
+print('result = %.2f' % result)
