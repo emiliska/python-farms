@@ -11,4 +11,4 @@ display = border + '\n' + poem + '\n' + border
 print(display)
 
 # Replace '+' with '/'
-print('\n', display.replace("+", "\\"), '\n')
+print('\n', display.replace("+", "\\"), '\n', sep="")
