@@ -12,3 +12,29 @@ print(display)
 
 # Replace '+' with '/'
 print('\n', display.replace("+", "\\"), '\n', sep="")
+
+'''
+PS D:\github\python-farms\lab1> python .\lab1a.py
+Programmer: NAME
+Course:     COSC146, Winter 2019
+Lab#:       1, part#1
+Due date:   1-16-2019
+
+Roses are Red
+
++++++++++++++++++++++++++++
++  Roses are red          +
++  Violets are blue       +
++  "Chocolate" is better  +
++ By a 'pound' or two!!   +
++++++++++++++++++++++++++++
+
+\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\  Roses are red          \
+\  Violets are blue       \
+\  "Chocolate" is better  \
+\ By a 'pound' or two!!   \
+\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+PS D:\github\python-farms\lab1>
+'''
