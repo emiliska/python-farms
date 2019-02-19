@@ -18,7 +18,6 @@ print(plus10(1000))
 
 # define a function that takes in two parameters and return their sum
 def sumoftwo(x, y):
-    x = x + y
-    return x
+    return x + y
 
 print(sumoftwo(10,2))
