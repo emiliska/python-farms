@@ -21,3 +21,4 @@ def sumoftwo(x, y):
     return x + y
 
 print(sumoftwo(5,10))
+print(sumoftwo('lil','phil'))
