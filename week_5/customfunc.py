@@ -6,10 +6,19 @@ def output_heading():
     print('Due Date:          02-19-2019')
 
 #define a function that takes a number and returns that number + 10
-def plus10 (x):
+def plus10(value):
     value = value + 10
     return value
 
 #call function print_heading
 output_heading()
-print('done!')
+
+#call function plus10
+print(plus10(1000))
+
+# define a function that takes in two parameters and return their sum
+def sumoftwo(x, y):
+    x = x + y
+    return x
+
+print(sumoftwo(10,2))
