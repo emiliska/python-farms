@@ -20,4 +20,4 @@ print(plus10(1000))
 def sumoftwo(x, y):
     return x + y
 
-print(sumoftwo(10,2))
+print(sumoftwo(5,10))
