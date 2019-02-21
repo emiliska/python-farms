@@ -5,8 +5,6 @@ def output_heading():
     print('Lab#:              4')
     print('Due Date:          Feb. 20, 2019')
 
-i = 1 # initialize count variable
-sumofNums = 0 # initialize sumofNums
 repeat = True # initalize while loop
 output_heading() # print heading
 
@@ -17,6 +15,8 @@ while repeat:
     try:
         print()
         x = int(input('Enter a whole number: '))
+        i = 1 # initialize count variable
+        sumofNums = 0 # initialize sumofNums
         print()
 
     except:
