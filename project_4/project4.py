@@ -26,7 +26,7 @@ while repeat:
     # 1 Output all of the numbers from 1 thourgh the given number
     #       with a couple of space between them (while-loop)
 
-    print('Numbers from 1 through 17 are:')
+    print('Numbers from 1 through ', x,' are:', sep="")
     while i < (x + 1):
         print(i, end="  ")
         i += 1
@@ -37,7 +37,7 @@ while repeat:
     # 2 Output all odd numbers between 1 and the given number
     #      starts at 1, ends with odd number less than or equal to given
     #      (for-loop); do this with range()
-    print('Odd numbers from 1 through 17 are:')
+    print('Odd numbers from 1 through ', x,' are:', sep="")
     for j in range(1, x+1, 2):
         print(j, end="  ")
 
@@ -46,7 +46,7 @@ while repeat:
     # 3 output every multiple of four b/w given number and 1
     # output will start with first multiple of four less than or equal to the
     # given number (for-loop)
-    print('\nMultiple of fours from 17 through 1 are:')
+    print('\nMultiple of fours from 1 ', x,' are:', sep="")
     for j in range(1, x+1):
         if (j % 4 == 0):
             print(j, end="  ")
@@ -57,7 +57,7 @@ while repeat:
     # 4 output the sum of all the even numbers from 1 through the given
     #       number (while-loop)
     
-    print('Sum of even numbers from 1 through 17 is:')
+    print('Sum of even numbers from ', x,' are:', sep="")
     while i < (x + 1):
         if (i % 2 == 0):
             sumofNums = sumofNums + i
@@ -70,7 +70,8 @@ while repeat:
     #      display 5 numbers per line (using a single loop)
     #      (if-statement) used inside the loop
     i = 1
-    print('Numbers from 1 through 17 (5 numbers per line)')
+    print('Numbers from 1 through ', x,' (5 numbers per line):', sep="")
+    (5 numbers per line)')
     while i < (x + 1):
         if (i % 5 == 0):    
             print(i, end="\n")
