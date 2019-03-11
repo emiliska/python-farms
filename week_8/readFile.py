@@ -30,7 +30,20 @@ for line in fin:
 # read entire file into a string
 mydata = fin.read()
 print(mydata.rstrip())
-'''
+
 # read entire file into a list of lines
 myList=fin.readlines()
 print(myList)
+'''
+
+# read a data file specific at the keyboard
+
+# ask the user for the file name
+name = input('Enter a file name: ')
+
+# open the file for input
+fin = open(name)
+
+# echo the contents of the file by reading it line-by-line
+for line in fin:
+    print(line.rstrip())
