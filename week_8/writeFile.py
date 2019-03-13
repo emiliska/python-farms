@@ -21,7 +21,7 @@ for num in range(10):
     fout.write(str(num + 1)+ '\n')
 
 fout.close()
-'''
+
 while True:
     # ask the user for a file name
     name = input('Enter a file name: ')
@@ -33,4 +33,31 @@ while True:
         break
     except:
         print('File doesn\'t exist, TRY AGAIN LATER')
-    # 
+'''
+
+# ask the user to type in a flie name
+name = input('Enter a file name:')
+sum = 0 
+
+# open the file to write to it
+fout = open(name, 'w')
+
+# write numbers one through 10
+for num in range(10):
+    fout.write(str(num + 1)+ '\n')
+    sum += int(num)
+fout.write('Total: ' + str(sum))
+print('Total: ' + str(sum))
+# read the data file, add all the numbers in the file, 
+#     and output the total
+
+# fin = open(name)
+total = 0
+for line in fin:
+    line = line.rstrip()
+    total = total + int(line)
+    print ('')
+
+
+# close the file
+fout.close()
