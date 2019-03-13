@@ -50,3 +50,22 @@ m = int(input('Enter the number of rolls: '))
 print('Rolling an ', n, '-sided die ', m, ' times:', sep="")
 sum = sum_of_rolls(m, n)
 print('\nSum of rolls =', sum)
+
+'''
+OUTPUT:
+PS D:\github\python-farms\lab5> python .\build_in_and_user_defined_functions_part2.py
+
+Programmer: Emily Eubanks
+Course:     COSC 146, Winter 2019
+Lab#:       5, part #2
+Due Date:   March 6, 2019
+
+Rolling a 6-sided die 10 times:
+3 1 4 6 5 6 6 1 3 3
+
+Enter the number of sides: 8
+Enter the number of rolls: 15
+Rolling an 8-sided die 15 times:
+5 3 3 4 3 4 2 6 1 7 8 4 4 8 1 2
+Sum of rolls = 65
+'''
