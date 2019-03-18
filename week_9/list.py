@@ -38,3 +38,8 @@ while pos < 5:
     pos += 1
 
 # list build-in functions: len, max, min, sum
+numbers = [1,2,3,4,10,50,5,6,100,20]
+print(len(numbers))
+print(max(numbers))
+print(min(numbers))
+print(sum(numbers))
