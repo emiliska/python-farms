@@ -1,0 +1,4 @@
+This is the FIRST line
+Here is the second line
+I am the third line
+There is no MORE LINE left in this file
