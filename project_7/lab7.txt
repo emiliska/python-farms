@@ -1,0 +1,13 @@
+15
+14
+16
+19
+11
+13
+13
+11
+16
+10
+
+Average of the numbers in 'lab7.txt': 13.8
+Count of the numbers > 15:3
